@@ -16,6 +16,9 @@ artifacts/
 
 # Exclude config.json
 
+#Exclude TeamCityCodeCoverage file
+administrationClient_csharp_coverage.dcvr
+
 
 # Build results
 [Dd]ebug/
