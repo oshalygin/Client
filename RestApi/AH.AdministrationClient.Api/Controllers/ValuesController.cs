@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.Web.Http;
 
-namespace AdministrationClient.Api.Controllers
+namespace AH.AdministrationClient.Api.Controllers
 {
     public class ValuesController : ApiController
     {

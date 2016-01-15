@@ -1,7 +1,6 @@
-﻿using System.Web;
-using System.Web.Mvc;
+﻿using System.Web.Mvc;
 
-namespace AdministrationClient
+namespace AH.AdministrationClient.Web
 {
     public class FilterConfig
     {

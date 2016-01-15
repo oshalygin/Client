@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.24720.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdministrationClient", "AdministrationClient\AdministrationClient.csproj", "{7B5B3C73-B950-4113-B181-01951E108A26}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdministrationClient.Api", "RestApi\AdministrationClient.Api\AdministrationClient.Api.csproj", "{1616814C-32B7-4DC0-A08A-1EF37CDE0416}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{2C5E3900-26A9-4988-ACF5-483697661E2B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AH.AdministrationClient.Web", "AH.AdministrationClient.Web\AH.AdministrationClient.Web.csproj", "{7B5B3C73-B950-4113-B181-01951E108A26}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AH.AdministrationClient.Api", "RestApi\AH.AdministrationClient.Api\AH.AdministrationClient.Api.csproj", "{1616814C-32B7-4DC0-A08A-1EF37CDE0416}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -1,6 +1,6 @@
 ﻿using System.Web.Http;
 
-namespace AdministrationClient.Api
+namespace AH.AdministrationClient.Api
 {
     public class WebApiApplication : System.Web.HttpApplication
     {

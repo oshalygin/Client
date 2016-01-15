@@ -1,6 +1,6 @@
 ﻿using System.Web.Mvc;
 
-namespace AdministrationClient.Controllers
+namespace AH.AdministrationClient.Web.Controllers
 {
     public class HomeController : Controller
     {

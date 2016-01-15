@@ -1,6 +1,6 @@
 ﻿using System.Web.Http;
 
-namespace AdministrationClient.Api
+namespace AH.AdministrationClient.Api
 {
     public static class WebApiConfig
     {
