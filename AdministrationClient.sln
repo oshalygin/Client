@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AH.AdministrationClient.Web
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AH.AdministrationClient.Api", "RestApi\AH.AdministrationClient.Api\AH.AdministrationClient.Api.csproj", "{1616814C-32B7-4DC0-A08A-1EF37CDE0416}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AH.AdministrationClient.Api.Test", "Test\AH.AdministrationClient.Api.Test\AH.AdministrationClient.Api.Test.csproj", "{96D67BA9-9A3A-4C1E-B836-9CA13130EFC3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AH.AdministrationClient.Web.Test", "Test\AH.AdministrationClient.Web.Test\AH.AdministrationClient.Web.Test.csproj", "{3046A60D-341F-4487-90EE-F29BBC450B4D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -23,8 +27,20 @@ Global
 		{1616814C-32B7-4DC0-A08A-1EF37CDE0416}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1616814C-32B7-4DC0-A08A-1EF37CDE0416}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1616814C-32B7-4DC0-A08A-1EF37CDE0416}.Release|Any CPU.Build.0 = Release|Any CPU
+		{96D67BA9-9A3A-4C1E-B836-9CA13130EFC3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96D67BA9-9A3A-4C1E-B836-9CA13130EFC3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96D67BA9-9A3A-4C1E-B836-9CA13130EFC3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96D67BA9-9A3A-4C1E-B836-9CA13130EFC3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3046A60D-341F-4487-90EE-F29BBC450B4D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3046A60D-341F-4487-90EE-F29BBC450B4D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3046A60D-341F-4487-90EE-F29BBC450B4D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3046A60D-341F-4487-90EE-F29BBC450B4D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{96D67BA9-9A3A-4C1E-B836-9CA13130EFC3} = {2C5E3900-26A9-4988-ACF5-483697661E2B}
+		{3046A60D-341F-4487-90EE-F29BBC450B4D} = {2C5E3900-26A9-4988-ACF5-483697661E2B}
 	EndGlobalSection
 EndGlobal
